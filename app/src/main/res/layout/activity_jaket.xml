@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".JaketActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fashion Shop"
+            android:background="#76ABAE"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Jaket"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold|italic" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgJaketKulit"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jaket1"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Jaket : Kulit\nBahan : Kulit\nWarna : Coklat\nHarga : Rp450.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnJaketKulit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kulit"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgJaketOlahraga"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jaket2"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Jaket : Olahraga\nBahan : Katun\nWarna : Merah\nHarga : Rp250.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnJaketOlahraga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Olahraga"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgJaketHoodie"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jaket3"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Jaket : Hoodie\nBahan : Wol\nWarna : Hitam\nHarga : Rp300.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnJaketHoodie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hoodie"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgJaketHoodiee"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jaket4"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Jaket : Hoodie\nBahan : Wol\nWarna : Merah\nHarga : Rp300.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnJaketHoodiee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hoodie"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgJaketJeans"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jaket5"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Jaket : Jeans\nBahan : Denim\nWarna : Abu-abu\nHarga : Rp350.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnJaketJeans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jeans"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

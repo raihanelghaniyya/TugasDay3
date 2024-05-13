@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".BajuActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fashion Shop"
+            android:background="#76ABAE"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Baju"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold|italic" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBajuKemejaPolos"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baju1"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Baju : Kemeja Polos\nBahan : Katun\nWarna : Hitam\nHarga : Rp350.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnBajuKemejaPolos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kemeja Polos"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBajuKemejaRompi"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baju2"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Baju : Kemeja Rompi\nBahan : Katun\nWarna : Putih Hitam\nHarga : Rp450.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnBajuKemejaRompi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kemeja Rompi"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBajuGamis"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baju3"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Baju : Gamis\nBahan : Kapas\nWarna : Abu-abu\nHarga : Rp550.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnBajuGamis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Gamis"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBajuKemejaKantor"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baju4"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Baju : Kemeja Kantor\nBahan : Katun\nWarna : Coklat\nHarga : Rp400.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnBajuKemejaKantor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kemeja Kantor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#9EC8B9"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBajuKemejaSantai"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baju5"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Baju : Kemeja Santai\nBahan : Katun\nWarna : Abu-abu\nHarga : Rp450.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btnBajuKemejaSantai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kemeja Santai"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
